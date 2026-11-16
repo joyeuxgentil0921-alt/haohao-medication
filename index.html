@@ -626,11 +626,11 @@ function renderModal(focusSelector){let html='';
   </div><p class="form-error" role="alert"></p>${actions('确认','save-contact')}`,'contact-modal','添加联系人');
  if(modal==='delete-contact'){
   const c=state.contacts.find(c=>c.id===modalContext.id);
-  html=modalShell(`<h2>删除联系人？</h2><div class="delete-record"><p>${e(c.name)}</p></div>${actions('确认删除','confirm-delete-contact','取消')}`,'dose-confirm-modal delete-modal','删除联系人');
+  html=modalShell(`<h2>删除联系人</h2><div class="delete-record"><p>${e(c.name)}</p></div>${actions('确认删除','confirm-delete-contact','取消')}`,'dose-confirm-modal delete-modal','删除联系人');
  }
  if(modal==='delete-medicine'){
   const m=state.medicines.find(m=>m.id===modalContext.id);
-  html=modalShell(`<h2>删除常用药？</h2><div class="delete-record"><p>${e(m.name)}</p><div><span>每日 ${e(m.frequency)}次</span><span>每次 ${e(m.dose)}片</span></div></div>${actions('确认删除','confirm-delete-medicine','取消')}`,'dose-confirm-modal delete-modal','删除常用药');
+  html=modalShell(`<h2>删除常用药</h2><div class="delete-record"><p>${e(m.name)}</p><div><span>每日 ${e(m.frequency)}次</span><span>每次 ${e(m.dose)}片</span></div></div>${actions('确认删除','confirm-delete-medicine','取消')}`,'dose-confirm-modal delete-modal','删除常用药');
  }
  if(modal==='reset')html=modalShell(`<h2>重新开始演示？</h2>${actions('重置','reset-confirm','返回')}`,'confirm-modal','重置演示');
  overlay.innerHTML=html;
