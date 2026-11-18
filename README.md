@@ -12,7 +12,7 @@
 
 | 内容 | 路径 |
 | --- | --- |
-| PRD | [好好-老人端PRD/用药助手-老人端PRD.md](好好-老人端PRD/用药助手-老人端PRD.md) |
+| PRD | [好好-老人端PRD/用药助手-老人端PRD.md](好好-老人端PRD/好好-老人端PRD.md) |
 | 调研分析 | [好好-调研分析/好好-调研分析.md](好好-调研分析/好好-调研分析.md) |
 | 原型图 | [原型图/](原型图/) |
 | HTML 预览 | [点击在线体验](https://joyeuxgentil0921-alt.github.io/haohao-medication/) |
